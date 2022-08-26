@@ -40,6 +40,7 @@ p {
 
     display: flex;
     justify-content: center;
+    border: solid 1px;
 
 }
 
@@ -54,10 +55,27 @@ p {
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 5px;
 }
 
 .nav:focus {
     background-color: #A6BF9F;
     border-radius: 0 0 10px 10px;
     height: 38px;
+    color: #6F8C5A;
+}
+main{
+    background-color: rgb(211, 211, 211);
+    max-width: 1000px;
+    margin: auto;
+}
+.inforcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
 }
