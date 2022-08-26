@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    background-image: linear-gradient(to right ,#A6BF9F,#83e1ad,#2fa866 );
     background-color: #A6BF9F;
     height: 25vh;
     width: 100%;
@@ -19,17 +20,18 @@ header {
 }
 
 .title {
-    display: flex;  
-    flex-direction: column;    
+    display: flex;
+    flex-direction: column;
 }
-.paragrafo{
+
+.paragrafo {
     margin: 0 auto;
     padding-top: 10px;
 }
 
-.titulo{
+.titulo {
     padding: 25px;
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 p {
@@ -40,7 +42,7 @@ p {
 
     display: flex;
     justify-content: center;
-    border: solid 1px;
+
 
 }
 
@@ -55,27 +57,66 @@ p {
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 .nav:focus {
-    background-color: #A6BF9F;
-    border-radius: 0 0 10px 10px;
-    height: 38px;
+    background-color: #A6BF9F;   
     color: #6F8C5A;
 }
-main{
-    background-color: rgb(211, 211, 211);
-    max-width: 1000px;
+
+main {
+    background-color: var(--cor0);
+    max-width: 600px;
+    min-width: 300px;
     margin: auto;
 }
-.inforcoes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    border: 1px solid black;
+
+article {
+   
+    position: relative;
+    margin-top: 30px;
 }
-h1{
+
+h1 {
     text-align: center;
+}
+.img{
+    width: 300px;
+    margin-top: 50px;    
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+.textbiografia{
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    background-color: var(--cor0);
+    padding: 15px;
+    width: 200px; ;
+}
+.endereco{
+    display: flex;
+   
+}
+.textendereco{
+   margin-top: 60px;
+   margin-left: 10px;
+   background-color: var(--cor0);
+}
+.biografia{
+   
+}
+:root {
+    --cor0: #d4f3e2;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --font-padrao: serif, arial, verdana, ;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-andorid: 'Android', cursive;
 }
