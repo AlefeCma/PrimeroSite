@@ -31,19 +31,16 @@ li{
 }
 .nav{
     
-    max-width: 500px;
+    width: 500px;
     text-align: center;
     text-decoration: none;
     transition: .8s initial;
     background-color:  #6F8C5A;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 18px;
-    padding-top: 15px;
-    
+    font-size: 19px;
+    padding: 15px;
 }
 nav{
-    max-width: 501px;
+    width: 500px;
     margin: 0 auto;
    
 }
@@ -51,5 +48,5 @@ nav{
 .nav:focus{
     background-color: #A6BF9F;
     border-radius:0 0 10px 10px;
-    height: 40px;
+    height: 38px;
 }
