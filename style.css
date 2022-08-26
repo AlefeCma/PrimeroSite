@@ -19,26 +19,30 @@ header {
 }
 
 .title {
-    
-    text-align: center;
-    max-width: 500px;
+    display: flex;  
+    flex-direction: column;    
+}
+.paragrafo{
     margin: 0 auto;
-    padding: 35px;
+    padding-top: 10px;
+}
 
+.titulo{
+    padding: 25px;
+margin: 0 auto;
 }
 
 p {
     margin-bottom: 35px;
 }
-.menu{
 
-display: flex;
-justify-content: center;
+.menu {
 
-}
-li{
+    display: flex;
+    justify-content: center;
 
 }
+
 .nav {
 
     max-width: 500px;
@@ -47,7 +51,8 @@ li{
     transition: .8s initial;
     background-color: #6F8C5A;
     font-size: 19px;
-    padding-left: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
     padding-right: 10px;
 }
 
