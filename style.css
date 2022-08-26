@@ -31,7 +31,7 @@ li{
 }
 .nav{
     
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     text-decoration: none;
     transition: .8s initial;
