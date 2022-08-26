@@ -36,17 +36,16 @@ li{
     text-decoration: none;
     transition: .8s initial;
     background-color:  #6F8C5A;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 18px;
-    
+    padding-top: 15px;
     
 }
 nav{
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
-    display: flexbox;
-    flex-wrap: wrap;
+   
 }
 
 .nav:focus{
