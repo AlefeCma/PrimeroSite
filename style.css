@@ -6,8 +6,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
-    height: 90%;
-    width: 100%;
+    
+   
 }
 
 .img1 {
@@ -16,14 +16,14 @@ body {
 }
 
 .imgperfil {
-    width: 300px;
+    width: 60%;
 }
 
 .header {
     background-color: #f0dbc0;
     display: flex;
     justify-content: space-around;
-    height: 10vh;
+    height: 15vh;
     width: 100%;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 :roo {
-    --cor:  #fafafa;
+    --cor: #fafafa;
     --cor1: #f2f2f2;
     --cor2: #f2bdbd;
     --cor3: #8c6568;
@@ -64,10 +64,9 @@ body {
     background-color: #d9d9d9;
     margin: auto;
     max-width: 50%;
-    margin: auto;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 1px 5px 15px black ;
+    box-shadow: 1px 1px 3px black;
 }
 
 .mensagem {
