@@ -2,39 +2,47 @@
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #8c6568;
     height: 90%;
     width: 100%;
 }
+
 .img1 {
     width: 200px;
     ;
 }
+
 .imgperfil {
     width: 400px;
 }
+
 .header {
     background-color: #f0dbc0;
     display: flex;
     justify-content: space-around;
-    height:10vh;
+    height: 10vh;
     width: 100%;
 }
+
 .logo {
     display: flex;
     align-items: center;
     padding-top: 15px;
 }
+
 .menu {
     display: flex;
     align-items: flex-end;
 }
-#btn{
-   padding: 20px 20px 0px 10px;
-   text-decoration: none;
+
+#btn {
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
 }
+
 :roo {
     --cor: #fafafa;
     --cor1: #f2f2f2;
@@ -43,35 +51,39 @@ body{
     --cor4: #f0dbc0;
     --cor5: #d9d9d9;
 }
-.container{
+
+.container {
     background-color: #F2F2F2;
     width: 100%;
 }
-.apresentacao{
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
- 
 
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #d9d9d9;
+    margin: auto;
+    width: 600px;
 }
-.mensagem{
-display: flex;
-justify-content: center;
-padding-bottom: 50px;
-background-color: #d9d9d9;
-border-radius: 10px 10px  0px 0px;
-padding-top: 20px;
-}
-.img2{
+
+.mensagem {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    background-color: #d9d9d9;
+
+
 }
-.paragrafo{
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.paragrafo {
     display: flex;
     justify-content: center;
     background-color: #d9d9d9;
-    border-radius: 0px 0px  10px 10px;
-    padding-bottom: 20px;
+
 }
