@@ -63,7 +63,8 @@ body {
     padding: 40px;
     background-color: #d9d9d9;
     margin: auto;
-    width: 400px;
+    max-width: 50%;
+    margin: auto;
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 1px 5px 15px black ;
@@ -73,8 +74,6 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-
-
 }
 
 .img2 {
