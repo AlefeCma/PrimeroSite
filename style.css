@@ -94,40 +94,32 @@ body {
 .title {
     padding-top: 50px;
     text-align: center;
+   background-color:  #f0dbc0;
+   margin-top: 100px;
 }
 
 .servico {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: space-between;
     flex-wrap: wrap;
-    padding: 10px;
+    background-color:#f0dbc0;
+    padding-bottom: 50px;
 
 }
 
-.servi1 {
+.servi {
     display: flex;
     justify-content: center;
-    width: 300px;
-    height: 400px;
+    width: 200px; ;
+    height:300px;
     background-color: #d9d9d9;
+    text-align: justify;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.serviconteudo{
+    padding:10px;
 }
 
-.servi2 {
-    width:300px;
-    height: 400px;
-    background-color: #d9d9d9;
-}
-
-.servi3 {
-    width: 300px;
-    height: 400px;
-    background-color: #ff0000;
-}
-
-.servi4 {
-    width: 300px;
-    height: 400px;
-    background-color: #fc0000;
-    
-}
